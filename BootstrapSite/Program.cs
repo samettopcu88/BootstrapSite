@@ -1,0 +1,10 @@
+var builder = WebApplication.CreateBuilder(args);
+var app = builder.Build();
+
+DefaultFilesOptions option = new DefaultFilesOptions();
+option.DefaultFileNames.Clear();
+option.DefaultFileNames.Add("Index.html");
+app.UseDefaultFiles(option);
+
+app.UseStaticFiles();
+app.Run();
