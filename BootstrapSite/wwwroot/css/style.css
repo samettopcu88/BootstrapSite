@@ -1,2 +1,12 @@
-﻿body {
+﻿.resimSlider {
+    height: 700px;
+    object-fit: cover; /* Resmin boyutunu koruyarak alanı doldurur */
+}
+
+.carousel-inner {
+    min-height: 700px; /* Slider yüksekliği */
+}
+
+body{
+    padding-top: 56px; /* Navbar yüksekliği kadar boşluk bırakır */
 }
