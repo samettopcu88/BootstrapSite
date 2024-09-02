@@ -66,3 +66,7 @@ body{
     object-fit: cover; /* Resmin kapsayıcıyı kaplamasını sağlar */
 }
 
+.btn-wide {
+    width: 200px; /* İstediğiniz genişlik burada ayarlanabilir */
+}
+
